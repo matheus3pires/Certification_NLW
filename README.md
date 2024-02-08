@@ -72,7 +72,7 @@ POST /students/certification/answer
 ### Retorna um ranking com as 10 melhores notas
 
 ```http
-  GET /ranking/top-10
+  GET /ranking/top10
 ```
 
 
