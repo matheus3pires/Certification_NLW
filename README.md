@@ -16,8 +16,7 @@ O projeto consiste em um sistema de cadastro de alunos que permite aos usuários
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `email` | `String` | O email do usuário a ser consultado |
-| `technology` | `String` | A tecnologia do questionário
- a ser consultada |
+| `technology` | `String` | A tecnologia do questionário a ser consultada |
 
 #### Exemplo de Requisição
 ```json
@@ -50,8 +49,6 @@ POST /students/verify
 #### Exemplo de Requisição
 ```json
 POST /students/certification/answer
-Content-Type: application/json
-
 {
 	"email": "exemplo@email.com",
 	"tech": "JAVA",
@@ -80,8 +77,12 @@ Content-Type: application/json
 
 
 
+https://github.com/matheus3pires/Certification_NLW/assets/87993331/52033077-b992-4872-9e1c-d0aa03999369
+
+
+
 ## Minhas Redes
 Fique conectado para mais novidades e atualizações. Não hesite em entrar em contato!
 
-Linkedin: linkedin.com/in/matheuspiress
-e-mail: matheuspiressdev@gmail.com
+- Linkedin: [linkedin.com/in/matheuspiress](https://www.linkedin.com/in/matheuspiress/)
+- e-mail: matheuspiressdev@gmail.com
