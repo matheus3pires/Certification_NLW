@@ -10,7 +10,7 @@ O projeto consiste em um sistema de cadastro de alunos que permite aos usuários
 ### Verifica se o usuário já realizou a prova
 
 ```http
-  POST /students/verify
+  POST /students/verifyIfHasCertification
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
@@ -20,7 +20,7 @@ O projeto consiste em um sistema de cadastro de alunos que permite aos usuários
 
 #### Exemplo de Requisição
 ```json
-POST /students/verify
+POST /students/verifyIfHasCertification
 
 {
   "email": "exemplo@email.com",
